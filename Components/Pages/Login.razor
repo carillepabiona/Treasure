@@ -1,5 +1,7 @@
 ﻿@page "/login"
-
+<head>
+    <link rel="stylesheet" href="LoginStyle.css">
+</head>
 <form @onsubmit="LoginUser">
     <div class="card enhanced">
         @if (!string.IsNullOrWhiteSpace(StatusMessage))
